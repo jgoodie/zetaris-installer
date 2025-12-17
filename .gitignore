@@ -1,0 +1,59 @@
+# Keys and secrets - never commit these
+keys/
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.der 
+*.b64
+
+# Logs directory
+logs/
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Configuration files that might contain sensitive data
+# (uncomment if your zetaris.conf contains secrets)
+# config/zetaris.conf
+
+# Helm generated files
+*.tgz
+charts/
+Chart.lock
+
+# Kubernetes generated files
+*.yaml.backup
+*.yml.backup
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Runtime files
+*.pid
